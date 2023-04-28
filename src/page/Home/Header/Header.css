@@ -1,0 +1,133 @@
+.slider-1 {
+  background: url('https://www.bylc.org/assets/images/back-1-1920x1080.png');
+}
+
+.slider-2 {
+  background: url('../../../image/slider-2.jpg');
+}
+
+.ovarly {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  opacity: 0.75;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#header {
+  height: 100vh;
+  /* width: 1170px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header .content {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#header h1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 68px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#header .btn {
+  box-sizing: border-box;
+  margin: auto;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 28px;
+  gap: 12px;
+  width: 266px;
+  height: 60px;
+  /* Purple/600 */
+  /* background: #7f56d9; */
+  /* Purple/600 */
+  border: 2px solid #ffffff;
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* Base/White */
+
+  color: #ffffff;
+}
+
+#header .content p {
+  padding: 0 200px;
+  text-align: center;
+  color: white;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 40px) !important;
+  right: auto;
+  background: aqua;
+  opacity: 0.5;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 40px) !important;
+  background: aqua;
+  opacity: 0.5;
+  left: auto;
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 420px) {
+  #header h1 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #header .btn {
+    padding: 16px 28px;
+    width: 266px;
+    height: 60px;
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    display: none !important;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    display: none !important;
+  }
+}
