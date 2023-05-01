@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import logo from '../../../image/logo.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -24,10 +25,10 @@ const Header = () => {
                     <div id='header' className="slider-1">
                         <div className="ovarly">
                             <div className="content">
-                                <h1>Building Bridges through Leadership Training</h1>
-                                <p>Program duration: May 19 to June 3, 2023 (3 weeks)
-                                    Platform: Blended (classes will be held online and in-person)
-                                    Registration deadline: April 8, 2023.</p>
+                                <img className="logo" src={logo} alt="" />
+                                <h3>Bangladesh</h3>
+                                <h1>Youth Skills Development <span>Organisation</span></h1>
+                                <p>Bangladesh Youth Skills Development Organisation is a students-based social welfare and skills development organization.  </p>
                                 <button className='btn'>Learn More</button>
                             </div>
                         </div>
@@ -35,15 +36,15 @@ const Header = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div id='header' className="slider-2">
-                        <div className="ovarly">
-                            <div className="content">
-                                <h1>BYSDO Corporate and Management Career Bootcamp 2023 </h1>
-                                <p>Program duration: May 19 to June 3, 2023 (3 weeks)
+                        <div className="ovarly2">
+                            <div className="content text-white">
+                                <h1 className="text-white">BYSDO Corporate and Management Career Bootcamp 2023 </h1>
+                                <p className="text-white">Program duration: May 19 to June 3, 2023 (3 weeks)
                                     Platform: Blended (classes will be held online and in-person)
                                     Registration deadline: April 8, 2023.
 
                                 </p>
-                                <button className='btn'>Learn More</button>
+                                <button className='btn text-white border-white'>Learn More</button>
                             </div>
                         </div>
                     </div>
