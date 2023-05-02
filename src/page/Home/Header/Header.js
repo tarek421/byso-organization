@@ -14,7 +14,7 @@ const Header = () => {
             <Swiper
                 navigation={true}
                 autoplay={{
-                    delay: 5000,
+                    delay: 5000000,
                     disableOnInteraction: false,
                 }}
                 loop={true}
@@ -28,7 +28,7 @@ const Header = () => {
                                 <img className="logo" src={logo} alt="" />
                                 <h3>Bangladesh</h3>
                                 <h1>Youth Skills Development <span>Organisation</span></h1>
-                                <p>Bangladesh Youth Skills Development Organisation is a students-based social welfare and skills development organization.  </p>
+                                <p className="w-75 m-auto">Bangladesh Youth Skills Development Organisation is a students-based social welfare and skills development organization.  </p>
                                 <button className='btn'>Learn More</button>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const Header = () => {
                         <div className="ovarly2">
                             <div className="content text-white">
                                 <h1 className="text-white">BYSDO Corporate and Management Career Bootcamp 2023 </h1>
-                                <p className="text-white">Program duration: May 19 to June 3, 2023 (3 weeks)
+                                <p className="text-white w-75 m-auto">Program duration: May 19 to June 3, 2023 (3 weeks)
                                     Platform: Blended (classes will be held online and in-person)
                                     Registration deadline: April 8, 2023.
 

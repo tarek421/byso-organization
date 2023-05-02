@@ -1,0 +1,29 @@
+#what_we_do {
+  padding: 70px 0;
+  background: linear-gradient(#000000c9, #000000c4),
+    url('../../../image/slider-2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#what_we_do img {
+  height: 170px;
+  padding: 15px 15px 0px 15px;
+  border-radius: 40px;
+}
+
+#what_we_do .card {
+  border-radius: 30px;
+  overflow: hidden;
+  height: 350px;
+  margin-top: 10px;
+}
+
+#what_we_do h1 {
+  text-transform: uppercase;
+}
+
+#what_we_do p {
+  font-size: 15px;
+}

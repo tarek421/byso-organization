@@ -3,11 +3,15 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
 import OurContribution from '../OurContribution/OurContribution';
+import WhatWeDo from '../WhatWeDo/WhatWeDo';
+import WhoWeAre from '../WhoWeAre/WhoWeAre';
 const Home = () => {
     return (
         <div>
             <Navigation />
             <Header />
+            <WhoWeAre />
+            <WhatWeDo />
             <OurContribution />
             <Footer />
         </div>
