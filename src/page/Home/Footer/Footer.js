@@ -18,8 +18,7 @@ const Footer = () => {
                                 <strong>VISIT US</strong>
                             </h5>
                             <p className='mbr-tag mbr-fonts-style display-4'><em>HEADQUARTERS</em></p>
-                            <p className='display-4'>Level 11 & 12, Medona Tower
-                                28 Mohakhali C/A, Dhaka 1213</p>
+                            <p className='display-4'>Science Faculty Road, University of Chittagong, Chittagong, Bangladesh</p>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-12">
@@ -28,8 +27,8 @@ const Footer = () => {
                                 <strong>CONTACT US</strong>
                             </h5>
                             <p className='mbr-tag mbr-fonts-style display-4'><em>EMAIL & PHONE</em></p>
-                            <p className='display-4'>info@bylc.org
-                                +880 28833519</p>
+                            <p className='display-4'>bysdoofficial@gmail.com <br />
+                                +8801860-841162</p>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-12">
