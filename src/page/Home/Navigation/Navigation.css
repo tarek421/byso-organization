@@ -11,6 +11,12 @@
   z-index: 9999;
 }
 
+.navbar-toggler {
+  color: #198754;
+  background-color: transparent;
+  border: 1px solid #198754;
+}
+
 #navbar .navbar-brand img {
   width: 60px;
   height: 60px;
@@ -44,7 +50,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: #c7c7c7;
+  color: #636464;
 }
 
 .navbar-nav .contact:hover {

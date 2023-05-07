@@ -11,7 +11,7 @@ const Navigation = () => {
     function scrollFunction() {
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             document.getElementById("navbar").style.top = "0";
-            document.getElementById("navbar").style.background = "#000000";
+            document.getElementById("navbar").style.background = "#dee2e6";
         } else {
             document.getElementById("navbar").style.top = "transparent";
             document.getElementById("navbar").style.background = "transparent";

@@ -27,7 +27,7 @@ const Footer = () => {
                                 <strong>CONTACT US</strong>
                             </h5>
                             <p className='mbr-tag mbr-fonts-style display-4'><em>EMAIL & PHONE</em></p>
-                            <p className='display-4'>bysdoofficial@gmail.com <br />
+                            <p className='display-4'>info@bysdo.org <br /> teamhrmbysdo@gmail.com <br />
                                 +8801860-841162</p>
                         </div>
                     </div>
