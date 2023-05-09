@@ -19,7 +19,8 @@
 }
 
 #footer .social-media ul {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   padding-left: 0;
 }
 
