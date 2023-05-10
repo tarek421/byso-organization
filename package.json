@@ -1,5 +1,6 @@
 {
-  "name": "byso-organization",
+  "name": "bysdo-organization",
+  "homepage": "https://www.bysdo.org/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

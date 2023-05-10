@@ -1,6 +1,6 @@
 import React from 'react';
 import './WhatWeDo.css';
-import what_we_do from '../../../image/what-we-do.jpg';
+import { WhatWeDoData } from '../../../data/WhatWeDoData';
 
 const WhatWeDo = () => {
     return (
@@ -9,7 +9,20 @@ const WhatWeDo = () => {
                 <h1 className='text-white'>What we do</h1>
 
                 <div className="row mt-5 gx-4 px-3 ">
-                    <div className="col-sm-12 col-md-4 col-lg-3 mt-2">
+
+                    {
+                        WhatWeDoData.map(item => <div className="col-sm-12 col-md-4 col-lg-3 mt-2">
+                            <div className="card">
+                                <img src={item.image} className="card-img-top " alt="img" />
+                                <div className="card-body">
+                                    <h4>{item.title}</h4>
+                                    <p className="card-text">{item.content}</p>
+                                </div>
+                            </div>
+                        </div>)
+                    }
+
+                    {/* <div className="col-sm-12 col-md-4 col-lg-3 mt-2">
                         <div className="card">
                             <img src="https://s35691.pcdn.co/wp-content/uploads/2016/03/iStock_000037379776_Medium.160328.jpg" className="card-img-top " alt="img" />
                             <div className="card-body">
@@ -47,7 +60,10 @@ const WhatWeDo = () => {
                                 <p className="card-text">Events are combination of workshops, training sessions and practical knowledge gathering opportunity for the members and non-members.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+
+
                 </div>
             </div>
         </div>
