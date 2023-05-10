@@ -13,7 +13,7 @@ const Navigation = () => {
             document.getElementById("navbar").style.top = "0";
             document.getElementById("navbar").style.background = "#dee2e6";
         } else {
-            document.getElementById("navbar").style.top = "transparent";
+            document.getElementById("navbar").style.top = "0";
             document.getElementById("navbar").style.background = "transparent";
 
         }

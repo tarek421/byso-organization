@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navigation from '../Home/Navigation/Navigation';
 import './PageNotFound.css';
 
 const PageNotFound = () => {
     return (
         <div className="d-flex align-items-center justify-content-center vh-100">
+            <Navigation />
             <div className="text-center row">
                 <div className=" col-md-6">
                     <img src="https://cdn.pixabay.com/photo/2017/03/09/12/31/error-2129569__340.jpg" alt=""

@@ -9,10 +9,10 @@ const Footer = () => {
         <div id='footer' className='py-5 text-white text-start'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-12 m-auto">
+                    <div className="col-md-2 col-lg-3 col-sm-12 m-auto">
                         <img src={logo} alt="" />
                     </div>
-                    <div className="col-md-3 col-sm-12">
+                    <div className="col-md-3 col-lg-3 col-sm-12">
                         <div>
                             <h5 className='display-7'>
                                 <strong>VISIT US</strong>
@@ -21,7 +21,7 @@ const Footer = () => {
                             <p className='display-4'>Science Faculty Road, University of Chittagong, Chittagong, Bangladesh</p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-12">
+                    <div className="col-md-3 col-lg-3 col-sm-12 py-4 py-md-0">
                         <div>
                             <h5 className='display-7'>
                                 <strong>CONTACT US</strong>
@@ -31,7 +31,7 @@ const Footer = () => {
                                 +8801860-841162</p>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-12">
+                    <div className="col-md-4 col-lg-3 col-sm-12">
                         <div className='social-media'>
                             <h5 className='display-7'>
                                 <strong>SOCIAL MEDIA</strong>

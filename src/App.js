@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/team/:id" element={<PageNotFound />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>

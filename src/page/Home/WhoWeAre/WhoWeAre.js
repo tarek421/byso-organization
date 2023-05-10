@@ -5,7 +5,7 @@ const WhoWeAre = () => {
     return (
         <div id='who_we_are' className='py-5'>
             <div className="container">
-                <div class="px-md-5 px-sm-2">
+                <div className="px-md-5 px-sm-2">
                     <h1 className='display-5'>Who we are </h1>
                     <p><b>Bangladesh Youth Skills Development Organization-BYSDO</b> is a student
                         based youth empowerment and skill enhancing organization in
