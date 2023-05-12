@@ -1,6 +1,7 @@
 import saikat from '../image/saikat.png';
 import billal from '../image/Billal-hossain.jpg';
 import Musfida from '../image/Musfida-Rahman.jpg';
+import zahua from '../image/kaji-zahua-rashid.png';
 
 export const team_data = [
     {
@@ -11,7 +12,7 @@ export const team_data = [
     {
         id: 2,
         name: 'Kazi Zahua Rashid',
-        image: saikat
+        image: zahua
     },
     {
         id: 3,
