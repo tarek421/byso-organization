@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team/:id" element={<PageNotFound />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="*" exact="true" element={<PageNotFound />} />
       </Routes>
     </div>
   );
