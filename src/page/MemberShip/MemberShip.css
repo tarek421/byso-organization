@@ -103,7 +103,7 @@ form.sign-in-form {
   font-size: 1rem;
 }
 
-.social-media {
+#MemberShip .social-media {
   display: flex;
   justify-content: center;
 }

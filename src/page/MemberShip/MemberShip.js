@@ -19,7 +19,7 @@ const MemberShip = () => {
     }
 
     return (
-        <div id=''>
+        <div id='MemberShip'>
             <div className={active ? 'member-ship sign-up-mode' : 'member-ship'}>
                 <div className="forms-container">
                     <div className="signin-signup">
