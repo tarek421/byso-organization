@@ -4,7 +4,7 @@ import logo from '../../image/logo.png';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGoogle, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faUserAlt, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faUserAlt, faEnvelope, faLock, faPhone, faLocation, faInstitution } from '@fortawesome/free-solid-svg-icons';
 
 const MemberShip = () => {
 
@@ -56,30 +56,38 @@ const MemberShip = () => {
                                 <FontAwesomeIcon icon={faUserAlt} />
                                 <input type="text" placeholder="Username" />
                             </div>
+
                             <div className="input-field">
                                 <FontAwesomeIcon icon={faEnvelope} />
                                 <input type="email" placeholder="Email" />
                             </div>
+
+                            <div className="input-field">
+                                <FontAwesomeIcon icon={faPhone} />
+                                <input type="text" placeholder="Phone" />
+                            </div>
+
+                            <div className="input-field">
+                                <FontAwesomeIcon icon={faLocation} />
+                                <input type="text" placeholder="Address" />
+                            </div>
+
+                            <div className="input-field">
+                                <FontAwesomeIcon icon={faInstitution} />
+                                <input type="text" placeholder="Institution Name" />
+                            </div>
+
                             <div className="input-field">
                                 <FontAwesomeIcon icon={faLock} />
                                 <input type="password" placeholder="Password" />
                             </div>
-                            <input type="submit" className="btn" value="Sign up" />
-                            <p className="social-text">Or Sign up with social platforms</p>
-                            <div className="social-media">
-                                <Link className="social-icon">
-                                    <FontAwesomeIcon icon={faFacebookF} />
-                                </Link>
-                                <Link href="#" className="social-icon">
-                                    <FontAwesomeIcon icon={faTwitter} />
-                                </Link>
-                                <Link href="#" className="social-icon">
-                                    <FontAwesomeIcon icon={faGoogle} />
-                                </Link>
-                                <Link href="#" className="social-icon">
-                                    <FontAwesomeIcon icon={faLinkedinIn} />
-                                </Link>
+
+                            <div className="input-field">
+                                <FontAwesomeIcon icon={faLock} />
+                                <input type="password" placeholder="Confirm Password" />
                             </div>
+
+                            {/* <input type="submit" className="btn" value="Sign up" /> */}
                         </form>
                     </div>
                 </div>

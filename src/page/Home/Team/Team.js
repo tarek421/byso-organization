@@ -9,7 +9,7 @@ const Team = () => {
             <div className="container py-5">
                 <h2>Panel</h2>
                 <h1 className='text-white'>Advisory</h1>
-                <div className='p-4 mt-5 panel'>
+                <div className='p-4 mt-5 panel-advisor'>
                     <div className='row'>
                         {
                             team_data.map(team => <div key={team.id} className="col-md-3 col-sm-12 mt-3 mt-md-0">
